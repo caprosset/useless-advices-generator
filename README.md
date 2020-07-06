@@ -4,11 +4,11 @@
 This is a responsive web app that randomly generates useless advices and displays it to the user.
 
 
-## MVP (DOM - CANVAS)
+## MVP (DOM)
 The __MVP__ will cover the following:
 
 - __Homepage:__ The homepage will present the app concept and features and provide links to the rest of the site.
-- __My Kitchen:__ A user will be able to search the advices database by typing a keyword in the searchbar, or by clicking on the Random button.
+- __Advices:__ A user will be able to search the advices database by typing a keyword in the searchbar, or by clicking on the Random button.
 - __FAQ:__ Everything you always wanted to know about ***Useless Advices*** but were too afraid to ask.
 - __Signup:__ A registration form for new users.
 - __Login:__ A sign in form for existing users.
@@ -19,7 +19,7 @@ The __MVP__ will cover the following:
 
 
 ## Wireframes    
-List of pages, and/or link to your sketchs
+List of pages, and/or link to my sketchs (TBD)
 
 
 ## Data structure

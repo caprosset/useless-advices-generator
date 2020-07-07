@@ -17,7 +17,7 @@ The __MVP__ will cover the following:
 ## Backlog    
 - Filtering advices by category
 - Save my favorite advices in localstorage
-- Add
+- Add different fonts and colors
 
 ## Wireframes    
 List of pages, and/or link to my sketchs (TBD)
@@ -28,16 +28,16 @@ List of pages, and/or link to my sketchs (TBD)
      - index.html
      - advices.html
      - faq.html
-     - register.html
-     - signin.html
+     - signup.html
+     - login.html
      - **css/**
           - style.css
      - **js/**
           - main.js
+          - random.js
           - Signup.js
           - User.js
           - Validator.js
-          - adviceslipApi.js
      - **assets/**
           - img/
           - fonts/

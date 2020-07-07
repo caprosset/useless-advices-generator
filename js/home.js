@@ -1,5 +1,5 @@
 const randomButton = document.getElementById('random-button');
-const randomSection = document.getElementById('random-section');
+const randomTitle = document.getElementById('random-title');
 let randomParagraph = null;
 
 const API_URL = "https://api.adviceslip.com/advice";
@@ -15,11 +15,15 @@ const getRandomAdvice = async () => {
     const data = await API.get(API_URL);
     const randomAdvice = data.slip.advice;
 
-    if(!randomSection.contains(randomParagraph)) {
+    if(!document.body.contains(randomParagraph)) {
       randomParagraph = document.createElement('p');
-      randomSection.appendChild(randomParagraph);
+      randomParagraph.setAttribute('id', 'random-advice')
+      randomTitle.insertAdjacentElement('afterend', randomParagraph);
     } 
     randomParagraph.innerHTML = randomAdvice;
+
+    randomButton.disabled = true;
+    setTimeout(() => randomButton.disabled = false, 5000);
   } catch (err) {
     console.log(err)
   }

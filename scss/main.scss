@@ -1,0 +1,33 @@
+%registration-container {
+  width: 80%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+%registration-form {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+
+  input, button {
+    margin: 10px 0;
+  }
+}
+
+.signup {
+  @extend %registration-container;
+}
+
+.signup-form {
+  @extend %registration-form;
+}
+
+.login {
+  @extend %registration-container;
+}
+
+.login-form {
+  @extend %registration-form;
+}

@@ -16,8 +16,9 @@ The __MVP__ will cover the following:
 
 ## Backlog    
 - Filtering advices by category
-- Save my favorite advices in localstorage
-- Add different fonts and colors
+- Save my favorite advices in favorites section (localstorage)
+- Give display options, with different fonts and colors
+- Add right and left arrows to fetch the next or previous advice 
 
 ## Wireframes    
 List of pages, and/or link to my sketchs (TBD)

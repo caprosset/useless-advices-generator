@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+body {
+  background: #2EC5FA;
+}
+
+.container {
+  max-width: 350px;
+  width: 100%;
+  height: auto;
+  background-color: #fff;
+  padding: 60px 45px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 20px;
+}
+
+.container h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-size: 26px;
+  font-weight: bold;
+  color: #2EC5FA;
+}
+
+.container .form-wrapper .input-field {
+  position: relative;
+  margin-bottom: 10px;
+}
+
+.container .form-wrapper .input-field .input {
+  width: 100%;
+  padding: 12px 0 12px 30px;
+  padding-left: 30px;
+  border: none;
+  background: #eeeeee;
+}
+
+.container .form-wrapper .input-field i {
+  position: absolute;
+  top: 14px;
+  left: 10px;
+  font-size: 14px;
+  color: #1d2120;
+}
+
+.container .form-wrapper .button-div {
+  display: flex;
+  justify-content: center;
+}
+
+.container .form-wrapper .button-div button {
+  width: 70%;
+  margin: 0 auto;
+  background: #2EC5FA;
+  text-align: center;
+  padding: 12px;
+  border-radius: 25px;
+  border: none;
+  color: #fff;
+}
+
+.container .form-wrapper .button-div button:disabled {
+  opacity: 0.6;
+}
+
+.container .form-wrapper .button-div button:enabled {
+  opacity: 1;
+}
+
+.container .form-wrapper .button-div button:hover:enabled {
+  opacity: 0.6;
+  transition: 0.3s;
+}
+
+.container .form-wrapper .registration-link {
+  margin: 20px 0;
+  text-align: center;
+}
+
+.container .form-wrapper .registration-link a {
+  color: #2EC5FA;
+  text-decoration: none;
+}
+
+.container .form-wrapper .registration-link a:hover {
+  font-weight: bold;
+}
+
+.container .form-wrapper .message-container p, .container .form-wrapper .message-container .correct-message {
+  padding: 10px;
+  margin: 20px 0;
+  font-size: 14px;
+  background-color: lightpink;
+}
+
+.container .form-wrapper .message-container .correct-message {
+  background-color: lightgreen;
+}

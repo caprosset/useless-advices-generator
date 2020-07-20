@@ -5,22 +5,32 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Login - Useless Advices</title>
-  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,600" rel="stylesheet">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css">
+  <link rel="stylesheet" href="css/registration.css">
 </head>
 
 <body>
-  <section class="login">
+  <section class="container">
     <h2>Login</h2>
-    
+
     <div class="form-wrapper">
       <form class="login-form">
-        <input type="email" id="email" placeholder="Email" />
-        <input type="password" id="password" placeholder="****" />
-        <button type="submit" id="login-button" onclick="login(event)">Login</button>
+        <div class="input-field">
+          <input type="email" id="email" class="input" placeholder="Email" />
+          <i class="far fa-envelope"></i>
+        </div>
+        <div class="input-field">
+          <input type="password" id="password" class="input" placeholder="****" />
+          <i class="fas fa-lock"></i>
+        </div>
+        <div class="button-div">
+          <button type="submit" id="login-button">Login</button>
+        </div>
       </form>
       <div class="message-container"></div>
-      <div>
-        <p>Don't have an account? 
+      <div class="registration-link">
+        <p>Don't have an account?
           <a href="./signup.html">Sign up</a>
         </p>
       </div>

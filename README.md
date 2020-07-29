@@ -28,24 +28,26 @@ List of pages, and/or link to my sketchs (TBD)
 )
 # Project1
 
-* [css/](./Project1/css)
-  * [registration.css](./Project1/css/registration.css)
-* [js/](./Project1/js)
-  * [Database.js](./Project1/js/Database.js)
-  * [Login.js](./Project1/js/Login.js)
-  * [Signup.js](./Project1/js/Signup.js)
-  * [User.js](./Project1/js/User.js)
-  * [Validator.js](./Project1/js/Validator.js)
-  * [adviceSlipApi.js](./Project1/js/adviceSlipApi.js)
-* [scss/](./Project1/scss)
-  * [registration.scss](./Project1/scss/registration.scss)
-* [README.md](./Project1/README.md)
-* [advices.html](./Project1/advices.html)
-* [faq.html](./Project1/faq.html)
-* [index.html](./Project1/index.html)
-* [login.html](./Project1/login.html)
-* [signup.html](./Project1/signup.html)
-
+```
+.
+├── css
+│   └── registration.css
+├── scss
+│   └── registration.scss
+├── js
+│   ├── Database.js
+│   ├── Login.js
+│   ├── Signup.js
+│   ├── User.js
+│   ├── Validator.js
+│   └── adviceSlipApi.js
+├── README.md
+├── advices.html
+├── faq.html
+├── index.html
+├── login.html
+└── signup.html
+```
 
 ## APIs
 The API I am using for this project: 

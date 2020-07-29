@@ -25,8 +25,6 @@ List of pages, and/or link to my sketchs (TBD)
 
 
 ## Data structure
-)
-# Project1
 
 ```
 .

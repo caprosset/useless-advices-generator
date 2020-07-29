@@ -25,24 +25,26 @@ List of pages, and/or link to my sketchs (TBD)
 
 
 ## Data structure
-- **root/**
-     - index.html
-     - advices.html
-     - faq.html
-     - signup.html
-     - login.html
-     - **css/**
-          - style.css
-     - **js/**
-          - main.js
-          - random.js
-          - Signup.js
-          - User.js
-          - Validator.js
-     - **assets/**
-          - img/
-          - fonts/
+)
+# Project1
 
+* [css/](./Project1/css)
+  * [registration.css](./Project1/css/registration.css)
+* [js/](./Project1/js)
+  * [Database.js](./Project1/js/Database.js)
+  * [Login.js](./Project1/js/Login.js)
+  * [Signup.js](./Project1/js/Signup.js)
+  * [User.js](./Project1/js/User.js)
+  * [Validator.js](./Project1/js/Validator.js)
+  * [adviceSlipApi.js](./Project1/js/adviceSlipApi.js)
+* [scss/](./Project1/scss)
+  * [registration.scss](./Project1/scss/registration.scss)
+* [README.md](./Project1/README.md)
+* [advices.html](./Project1/advices.html)
+* [faq.html](./Project1/faq.html)
+* [index.html](./Project1/index.html)
+* [login.html](./Project1/login.html)
+* [signup.html](./Project1/signup.html)
 
 
 ## APIs
